@@ -255,9 +255,7 @@ img {
   color: var(--crl-secondary);
 }
 /* Footer */
-.foot-content {
-  width: 264px;
-}
+
 .fon-foot {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -275,6 +273,9 @@ img {
   text-decoration-line: none;
   text-transform: uppercase;
   color: var(--clr-filtr-beck);
+}
+.foot-content {
+  width: 264px;
 }
 .text-footer {
   margin-top: 16px;
