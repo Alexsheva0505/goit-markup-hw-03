@@ -15,7 +15,7 @@
 }
 body {
   background-color: var(--clr-backgraund-main);
-
+  font-family: Roboto, sans-serif;
   font-size: 16px;
 
   letter-spacing: 0.02em;
@@ -102,6 +102,7 @@ img {
   padding-bottom: 24px;
   display: block;
 
+  font-style: normal;
   color: var(--crl-secondary);
   text-decoration-line: none;
 }
@@ -183,6 +184,7 @@ img {
 }
 .general-paragraph {
   margin: 8px 0 0 0;
+  box-sizing: content-box;
 }
 /* cection work 3  */
 .work {
@@ -216,10 +218,9 @@ img {
   padding-bottom: 120px;
   background-color: var(--clr-filtr-beck);
 }
-.team-profession {
-  gap: 24px;
-}
+
 .list-person {
+  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: var(--clr-liht);
 }
@@ -228,7 +229,7 @@ img {
   gap: 24px;
 }
 .about-team {
-  margin-bottom: 72px;
+  margin: 0 0 72px 0;
 
   font-size: 36px;
   line-height: 1.11;
@@ -239,6 +240,7 @@ img {
   color: var(--clr-primary);
 }
 .title-name {
+  margin: 32px 0 8px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -278,7 +280,7 @@ img {
   width: 264px;
 }
 .text-footer {
-  margin-top: 16px;
+  margin: 16px 0 0 0;
 
   color: var(--clr-text-footer);
 }
