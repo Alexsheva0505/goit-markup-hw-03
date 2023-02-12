@@ -158,8 +158,9 @@ img {
   gap: 24px;
 }
 .general-item {
-  width: calc(100% / 4 - 24px);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -198,6 +199,10 @@ img {
 
   color: var(--clr-primary);
 }
+
+.work-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
 .section-work-img {
   border: 1px solid var(--clr-text-footer);
 }
@@ -215,6 +220,7 @@ img {
   gap: 24px;
 }
 .list-person {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: var(--clr-liht);
 }
 .about-person {
@@ -243,7 +249,7 @@ img {
 }
 .profession {
   margin: 0;
-  padding-bottom: ;
+  padding-bottom: 32px;
   text-align: center;
 
   color: var(--crl-secondary);
@@ -318,13 +324,14 @@ img {
 }
 .item-app {
   border: 1px solid var(--clr-bord-beck);
-  flex-basis: calc(100% / 3 - 24px);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .emphasis-title-app {
   text-decoration-line: none;
 }
 .title-app {
   margin: 32px 0 0 0;
+  padding-left: 32px;
 
   font-weight: 500;
   font-size: 20px;
@@ -335,6 +342,7 @@ img {
 .name-app {
   padding-top: 8px;
   padding-bottom: 32px;
+  padding-left: 32px;
   color: var(--crl-secondary);
   margin: 0;
 }
