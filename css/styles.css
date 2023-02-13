@@ -325,14 +325,22 @@ img {
   background-color: var(--clr-hove-beck);
 }
 .list-app {
-  gap: 24px;
+  margin-right: -24px;
+  margin-bottom: -48px;
 
   display: flex;
   flex-wrap: wrap;
 }
 .item-app {
+  margin-right: 24px;
+  margin-bottom: 48px;
+
+  flex-basis: calc(100% / 3 - 24px);
   border: 1px solid var(--clr-bord-beck);
-  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.item-app:not(3n) {
+  margin: 0 24px 48px 0;
 }
 .emphasis-title-app {
   text-decoration-line: none;
