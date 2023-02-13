@@ -44,6 +44,9 @@ img {
 }
 
 /* оформлення лого HEADER */
+.header-page {
+  border: 1px solid var(--clr-text-footer);
+}
 
 .header-nav {
   display: flex;
@@ -113,6 +116,8 @@ img {
 
 /* Section 1 hero  */
 .hero {
+  padding-top: 188px;
+  padding-bottom: 292px;
   background-color: var(--clr-primary);
   text-align: center;
 }
@@ -184,7 +189,6 @@ img {
 }
 .general-paragraph {
   margin: 8px 0 0 0;
-  box-sizing: content-box;
 }
 /* cection work 3  */
 .work {
@@ -288,14 +292,15 @@ img {
 /* Portfolio secondary page */
 
 .card-app {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .list-filtr {
+  margin: 0 0 72px 0;
+  display: flex;
+
   justify-content: center;
   gap: 24px;
-
-  padding-top: 96px;
-  padding-bottom: 72px;
-  display: flex;
 }
 .but-filtr {
   padding: 12px;
@@ -321,7 +326,7 @@ img {
 }
 .list-app {
   gap: 24px;
-  padding-bottom: 120px;
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -332,10 +337,12 @@ img {
 .emphasis-title-app {
   text-decoration-line: none;
 }
+.list-app-item {
+  padding: 32px 0 32px 32px;
+}
 .title-app {
-  margin: 32px 0 0 0;
-  padding-left: 32px;
-
+  /* padding-left: 32px; */
+  margin: 0 0 8px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -343,9 +350,7 @@ img {
   color: var(--clr-primary);
 }
 .name-app {
-  padding-top: 8px;
-  padding-bottom: 32px;
-  padding-left: 32px;
+  /* padding-left: 32px; */
   color: var(--crl-secondary);
   margin: 0;
 }
